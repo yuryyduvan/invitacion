@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Nan & Manu - Nos vamos a casar</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Many & Nan" name="keywords">
+    <meta content="Te invitamos a nuestra boda" name="description">
+    <meta property="og:image" content="https://raw.githubusercontent.com/bodananymanu/bodananymanu.github.io/main/img/mini.jpg">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body data-spy="scroll" class="bg-hojas-1" data-offset="51" id="principal" hidden="false">
+    
+    <!-- Navbar Start -->
+    <!--
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+            <div class="navbar-nav ml-auto py-0">
+                <a href="#home" class="nav-item nav-link ">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#story" class="nav-item nav-link">Story</a>
+                <a href="#gallery" class="nav-item nav-link">Gallery</a>
+            </div>
+            <div class="navbar-nav mr-auto py-0">
+                <a href="#family" class="nav-item nav-link">Family</a>
+                <a href="#event" class="nav-item nav-link">Event</a>
+                <a href="#rsvp" class="nav-item nav-link">RSVP</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    -->
+    <!-- Navbar End -->
+    
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0" id="home">
+         <!--<div class="bg-portada-1" >
+        </div>-->
+        <picture >
+            <source media="(max-width: 799px)" srcset="img/portada.png">
+            <source media="(min-width: 800px)" srcset="img/portada-desktop.png">
+            <img src="img/portada-desktop.png" alt="" class="img-fluid">
+        </picture>
+        
+        
+    </div>
+    <!-- Carousel End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+    <hr>
+    <!-- Event Start -->
+    <div class="container-fluid py-5" id="event">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-4" name="invitado"></h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                    <h2 class="font-secondary display-frase" id="mensaje-personalizado"></h2>
+                    <legend>¡Esperamos que nos puedas acompañar en este día tan especial!</legend>
+                </div>
+            </div>
+           
+            
+            <div class="text-center text-center ">
+                <img class="img-fluid mb-4" src="img/info-evento.png" alt="">
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-6 border-right border-primary">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid mb-4 width-large" src="img/icon-wedding.png" alt="">
+                        <h4 class="mb-3 margin-cero">Nuestra ceremonia</h4>
+                        <p class="mb-2">Celebraremos una hermosa boda campestre, donde nos uniremos en cuerpo y alma ante Dios, nuestras familias y amigos.</p>
+                        <p class="mb-2">3:30 pm - 5:00 pm</p>
+                    
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-left ml-md-3">
+                        <img class="img-fluid mb-4 width-large" src="img/icon-reception.png" alt="">
+                        <h4 class="mb-3 margin-cero">Recepción</h4>
+                        <p class="mb-2">Nos encantaría celebrar con todos ustedes nuestra unión y crear juntos una fiesta inolvidable</p>
+                        <p class="mb-0">6:00 pm - 01:00 am</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Event End -->
+
+    <hr>
+    <!-- Location Start -->
+    <div class="container-fluid py-5" id="event">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">El lugar</h6>
+                <h1 class="font-secondary display-4">Casasur Eventos</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row">
+                <div class="col-md-6 border-right border-primary">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid mb-2 width-small" src="img/location-icon.png" alt="">
+                        <h4 class="mb-2">¿Donde queda?</h4>
+                        <p class="mb-2">Casasur eventos está ubicado en la vereda La Miel a 5 minutos del parque principal de Caldas, Antioquia.</p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3967.2115812234697!2d-75.62338538467453!3d6.102184129609218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4687b6199bf303%3A0x5d6c85d6631a57f3!2sCasaSur%20Eventos%20Campestres!5e0!3m2!1ses!2sco!4v1675184674320!5m2!1ses!2sco" width="300" height="300" style="border:0; margin-bottom: 2rem;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-left ml-md-3">
+                        <img class="img-fluid mb-2 width-small" src="img/taxi-icon.png" alt="">
+                        <h4 class="mb-2">¿Cómo llegar en transporte público</h4>
+                        <p class="mb-2">Puedes llegar al parque principal de Caldas y allí pueden tomar un taxi el cuál los dejará en la puerta principal del lugar del evento. 
+                            Recomendamos mejor tomar un Uber o un taxi que los lleve directamente hasta el lugar. Desde Itagüí puede tener un costo aproximado de $30.000</p>
+                        
+                    </div>
+                    <div class="text-center text-md-left ml-md-3">
+                        <img class="img-fluid mb-2 width-small" src="img/car-icon.png" alt="">
+                        <h4 class="mb-2">¿Cómo llegar en carro particular?</h4>
+                        <p class="mb-2">Puedes buscar en Waze o en google maps CasaSur Eventos Campestres, o haciendo <a href="https://goo.gl/maps/XKqdWYmsbLLQqkgi7" style="text-decoration: underline; font-style: italic " target="_blank">click aquí</a>.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Locatin End -->
+
+    <hr>
+
+    <!-- Recomendaciones Start -->
+    <div class="container-fluid py-5" id="event">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Recomendaciones</h6>
+                <h1 class="font-secondary display-4">Por favor ten presente</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 border-right border-primary">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid mb-3 width-medium" src="img/gift-icon.png" alt="">
+                        <h4 class="mb-1">Sugerencia de regalo</h4>
+                        <p class="mb-2">El mejor regalo que nos puedan brindar, es poder contar con tu presencia ese día. Aún así, si desean hacernos un presente, pueden ayudarnos
+                            en nuestro proyecto de vivir en otro país. ¡Todo suma!
+                        </p>
+                        <img class="img-fluid mb-0 width-extra-small" src="img/envelop-icon.png" alt="">
+                        <p class="mb-2">Lluvia de sobres.</p>
+                    
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-left ml-md-3">
+                        <img class="img-fluid mb-3 width-medium" src="img/uno-icon.png" alt="">
+                        <h4 class="mb-1" id="confirmar-asistencia"></h4>
+                        <p class="mb-2">Nos encantaría poder compartir este día con muchas más personas, sin embargo, debido a las limitaciones de capacidad, la invitación es válida para una persona
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row mb-4">
+                <div class="col-md-6 border-right border-primary">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid mb-3 width-medium" src="img/check-icon.png" alt="">
+                        <h4 class="mb-1">Confirmar asistencia</h4>
+                        <p class="mb-2">
+                            Queremos asegurarnos de que nuestra celebración sea perfecta y por ello es de suma importancia que confirmes tu asistencia antes del 6 de junio. Encontrarás al final de esta invitación diversas formas de hacerlo. ¡Esperamos tu respuesta con mucha ilusión!
+                        </p>
+                    
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-left ml-md-3">
+                        <img class="img-fluid mb-3 width-medium" src="img/child-icon.png" alt="">
+                        <h4 class="mb-1">Los niños se quedan en casa</h4>
+                        <p class="mb-2">Adoramos tus niños, pero creemos que te mereces una noche libre.
+                        </p>
+                        <p class="mb-2">Solo adultos por favor.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-2">
+                <div class="col-md-12 text-center">
+                    <img class="img-fluid mb-3 width-small" src="img/traje-icon.png" alt="">
+                    <img class="img-fluid mb-3 width-small" src="img/dress-icon.png" alt="">
+                    <h4 class="mb-1">Vestimenta</h4>
+                    <p >
+                        Creemos que cada persona es libre de expresarse y vestirse a su manera, sin embargo, nos encantaría contar con tu mejor versión en este día tan especial para nosotros. 
+                        A continuación, te compartimos algunas recomendaciones para ayudarte a lucir espectacular en nuestra celebración.
+                    </p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-6 border-right border-primary">
+                    <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                        <img class="img-fluid mb-3" style="max-width: 11%;" src="img/vestimenta-men.png" alt="">
+                        <h4 class="mb-1">Caballeros</h4>
+                        <p class="mb-2">
+                            Si tienes un cachaco que hayas guardado, ¡es hora de desempolvarlo y lucirlo en nuestra celebración! Si no cuentas con uno, te recomendamos utilizar una camisa, pantalón clásico o de drill y zapatos casuales. Si deseas agregar un toque de elegancia, puedes complementar tu atuendo con un saco o blazer. ¡Te verás espectacular!"
+                        </p>
+                        <p class="mb-2"><a href="https://co.pinterest.com/wgonzalezvelasquez/vestimenta-semiformal-hombre/" style="text-decoration: underline; font-style: italic " target="_blank">Pulsa aquí</a> para que puedas ver algunos ejemplos.</p>
+                    
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="text-center text-md-left ml-md-3">
+                        <img class="img-fluid mb-3 width-medium" src="img/vestimenta-women.png" alt="">
+                        <h4 class="mb-1">Damas</h4>
+                        <p class="mb-2">
+                            Sabemos que la novia será el centro de atención en su gran día, pero no te preocupes si también recibes algunas miradas. Te sugerimos que optes por un vestido de cóctel largo que te haga lucir espléndida en esta ocasión especial o también podrías usar un conjunto semiformal. ¡Estamos seguros de que brillarás con luz propia!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </div>
+    <!-- Locatin End -->
+
+    <hr>
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Un poco de nostoros</h6>
+                <h1 class="font-secondary display-4">Nan & Manu</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row m-0 mb-4 mb-md-0 pb-2 pb-md-0">
+                <div class="col-md-6 p-0 text-center text-md-right">
+                    <div class="h-100 d-flex flex-column justify-content-center p-5">
+                        <h3 class="mb-3">El novio</h3>
+                        <p>
+                            Soy un desarrollador de software apasionado por la buena música y me encanta coleccionar juegos de mesa. Mi gran pasión es viajar, y si es en moto, ¡mucho mejor! También disfruto de leer, jugar videojuegos, hacer senderismo, tocar el saxofón y el piano, ver series, bailar y practicar deportes como el tenis de mesa, baloncesto y fútbol. Aunque como adulto, a veces el tiempo es limitado para disfrutar de todo lo que me gusta, siempre trato de encontrar tiempo para hacer lo que me apasiona.
+                        </p>
+                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-male text-primary pr-3"></i>Nan</h3>
+                        <div class="position-relative">
+                            <a class="btn btn-outline-primary btn-square mr-1" href="https://web.facebook.com/hernandavid.cuervoramirez" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-1" href="https://www.linkedin.com/in/hernan-david-cuervo-ramirez-1969b0104/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/hdavidcuervo31/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/about-1.jpg" style="object-fit: cover;">
+                </div>
+            </div>
+            <div class="row m-0">
+                <div class="col-md-6 p-0" style="min-height: 400px;">
+                    <img class="position-absolute w-100 h-100" src="img/about-2.jpg" style="object-fit: cover;">
+                </div>
+                <div class="col-md-6 p-0 text-center text-md-left">
+                    <div class="h-100 d-flex flex-column justify-content-center p-5">
+                        <h3 class="mb-3">La novia</h3>
+                        <p>Soy una ingeniera de procesos que disfruta mucho del arte, la naturaleza y la música. Me gusta tocar clarinete, hacer senderismo, patinar, montar en bicicleta, pintar mandalas y hacer ejercicio.  Soy apasionada a aprender nuevas cosas y conocer nuevos lugares, es por esto que disfruto mucho de mantenerme en constante aprendizaje acerca del mundo que me rodea y una de las mejores formas de hacerlo es viajar, me gusta tanto en moto como en cualquier otro medio de transporte.</p>
+                        <h3 class="font-secondary font-weight-normal text-muted mb-3"><i class="fa fa-female text-primary pr-3"></i>Manu</h3>
+                        <div class="position-relative">
+                            <a class="btn btn-outline-primary btn-square mr-1" href="https://facebook.com/manu234g" target="_blank"><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary btn-square mr-1" href="https://www.linkedin.com/in/angie-grisales-b3024218a/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary btn-square" href="https://www.instagram.com/manu_grisalesr/" target="_blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+    
+    <hr>
+
+    <!-- Story Start -->
+    <div class="container-fluid py-5" id="story">
+        <div class="container pt-5 pb-3">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Historia</h6>
+                <h1 class="font-secondary display-4">Toda familia tiene una historia. ¡Bienvenidos a la nuestra!</h1>
+                
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="container timeline position-relative p-0">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-right">
+                        <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;"> <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/x8jgmyl" width="100%" height="100%" allowfullscreen title="Dailymotion Video Player" > </iframe> </div>
+                        
+                    </div>
+                    <div class="col-md-6 text-center text-md-left">
+                        <div class="h-100 d-flex flex-column justify-content-center  p-4 ml-md-3">
+                            <h4 class="mb-2">Por favor sube el volumen y amplia el video</h4>
+                            <p class="m-0 mb-2">
+                                Como dice una de nuestras canciones favoritas: "No vale el tiempo, pero valen las memorias. No se cuentan los segundos, se cuentan historias". A pesar de que solo han pasado dos años desde que nos conocimos, hemos vivido momentos inolvidables juntos. Queremos compartir contigo este vídeo en el que te contamos algunos detalles de nuestra relación. ¡Esperamos que lo disfrutes tanto como nosotros disfrutamos creándolo!
+                            </p>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Story End -->
+    
+    <hr>
+
+    <!-- Gallery Start -->
+    <div class="container-fluid py-5" id="gallery" >
+       
+        <div class="section-title position-relative text-center" >
+            <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Galeria</h6>
+            <h1 class="font-secondary display-4 ">Nuestras fotos</h1>
+            <i class="far fa-heart"></i>
+        </div>
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <div class="carousel-inner">
+                
+                <div class="carousel-item position-relative active pers-carousel" >
+                    <a href="img/1.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/1.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/2.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/2.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/6.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/6.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/7.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/7.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/8.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/8.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/9.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/9.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/10.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/10.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/11.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/11.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/12.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/12.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/13.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/13.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/14.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/14.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/15.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/15.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/16.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/16.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/17.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/17.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/18.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/18.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/19.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/19.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/20.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/20.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/21.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/21.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/22.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/22.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/23.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/23.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/24.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/24.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/25.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/25.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/26.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/26.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/27.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/27.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/28.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/28.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/29.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/29.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/30.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/30.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/31.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/31.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/32.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/32.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/33.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/33.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/34.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/34.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/35.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/35.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/3.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/3.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/4.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/4.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/65.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/65.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                <div class="carousel-item position-relative  pers-carousel" >
+                    <a href="img/3.jpg" data-lightbox="gallery">
+                        <img class="position-absolute w-100 h-100" src="img/5.jpg" style="object-fit: contain;">
+                    </a>
+                </div>
+                
+            </div>
+            <a class="carousel-control-prev justify-content-start" href="#header-carousel" data-slide="prev">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-prev-icon mt-3"></span>
+                </div>
+            </a>
+            <a class="carousel-control-next justify-content-end" href="#header-carousel" data-slide="next">
+                <div class="btn btn-primary px-0" style="width: 68px; height: 68px;">
+                    <span class="carousel-control-next-icon mt-3"></span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- Gallery End -->
+
+
+    <hr>
+    <!-- RSVP Start -->
+    <div class="container-fluid py-5" id="rsvp">
+        <div class="container py-5">
+            <div class="section-title position-relative text-center">
+                <h6 class="text-uppercase text-primary mb-3" style="letter-spacing: 3px;">Confirma tu asistencia</h6>
+                <h1 class="font-secondary display-4">¡Contamos contigo!</h1>
+                <i class="far fa-heart text-dark"></i>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center">
+                   
+                    <p>Por favor, confirma tu asistencia antes del 6 de junio. Puedes hacerlo escribiéndonos por WhatsApp o llenando el formulario que encontrarás a continuación</p>
+                </div>
+            </div>
+            <div class="row mb-4">
+                <div class="col-md-6 border-right border-primary">
+                    <a href="https://api.whatsapp.com/send?phone=573016348912" target="_blank">
+                        <div class="text-center text-md-right mr-md-3 mb-4 mb-md-0">
+                            <img class="img-fluid mb-2 width-extra-small" src="img/whatsapp-invert-icon.png" alt=""><img class="img-fluid mb-2 width-small" src="img/groom-call-icon.png" alt="">
+                            <h4 class="mb-2">Pulsa aquí para chatear con Nan</h4>
+                            <p class="text-uppercase mb-2">(+57) 301 634 8912</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <a href="https://api.whatsapp.com/send?phone=19547629901" target="_blank">
+                        <div class="text-center text-md-left ml-md-3">
+                            <img class="img-fluid mb-2 width-small" src="img/bride-call-icon.png" alt=""><img class="img-fluid mb-2 width-extra-small" src="img/whatsapp-icon.png" alt="">
+                            <h4 class="mb-2">Pulsa aquí para chatear con Manu</h4>
+                            <p class="text-uppercase mb-2">+1(954) 762-9901</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="mb-2 text-center">También puedes diligenciar el siguiente formulario</h4>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeYxIAbpfTC7gnAR3wBhohLhbj1dyKAxRmYiNR_SZzGb1LEyg/viewform?embedded=true" height="1000" frameborder="0" marginheight="2" marginwidth="2" class="form-google">Cargando…</iframe>    
+                </div>
+            </div>
+           
+            
+        </div>
+    </div>
+    <!-- RSVP End -->
+    <hr>
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-white py-5" id="contact" style="margin-top: 90px;">
+        <div class="container text-center py-5">
+            <div class="section-title position-relative text-center">
+                <h1 class="font-secondary display-3 text-white">¡Nos encantaría que nos acompañaras en este día! 
+                </h1>
+                <p class="text-white" href="#">Sin embargo, entendemos que a veces pueden surgir dificultades que impidan tu asistencia. No te preocupes, lo importante es que sepas que nos encantaría tenerte con nosotros, si no puedes asistir, lo comprendemos perfectamente pero por favor avísanos con anticipación.
+                </p>
+                <i class="far fa-heart text-white"></i>
+            </div>
+            <p class="m-0">&copy;Diseñado por Manuela Grisales
+            </p>
+            <p class="m-0">&copy;Desarrollado por Hernán David Cuervo
+            </p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-outline-primary btn-lg-square back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script src="js/boda.js"></script>
+</body>
+
+</html>
